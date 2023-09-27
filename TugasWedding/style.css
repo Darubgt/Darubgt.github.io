@@ -4,6 +4,11 @@ body{
     /* width: 100%; */
 }
 
+html{
+    scroll-behavior: smooth
+}
+
+
 .navbar{
     border:#7c2b35 solid 2px;
     top: 2%;
