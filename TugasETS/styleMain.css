@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    font-family: 'poppins', sans-serif;
+}
+
+
+img {
+    transition: 0.5s all ease-in-out;
+    object-fit: cover;
+}
+
+img:hover{
+    transform: scale(1.04);
+    overflow: hidden;
+}
+
+.isian{
+    text-align: justify;
+    padding-top: 1pc;
+}
+
+.header{
+    height: 110px;
+    background-color: #170004;
+}
+
+.row a {
+    text-decoration: none;
+    color: black;
+}
+
+.header img {
+    height: 95px;
+}
+
+.nav{
+    text-decoration: none;
+}
+
+main {
+    width: 80%;
+}
+
+.carousel-item {
+    height: 630px;
+}
+
+.karus{
+    height: 630px;
+}
+
+.carousel-item img {
+    background-size: cover;
+    background-position: top;
+    height: auto;
+}
+
+.carousel-caption {
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+}
+
+.carousel-caption p {
+    font-size: small;
+    padding: 0pc 2pc;
+}
+
+.more img {
+    max-width: 100%;
+    height: auto;
+}
+
+.iklan {
+    width: 90%;
+    float: right;
+}
+
+footer .container-fluid{
+    margin-top: 18pc;
+    height: auto;
+    background-color: #170004;
+    padding: 3.5pc 5pc;
+}
+
+@media only screen and (max-width: 1200px)  {
+    .karus, .carousel-item{
+        height: 100%;
+    }
+
+    .carousel-item{
+        width: auto;
+    }
+} 
+
+@media only screen and (max-width:768px){
+    .carousel-caption h5, .carousel-caption p{
+        font-size: 8px;
+        padding: 0 1pc;
+    }
+}
